@@ -45,7 +45,7 @@ public class register extends Activity{
             String password = params[1];
             String email = params[2];
             String data="";
-            int tmp;
+            int tmp; 
 
             try {
                 URL url = new URL("http://10.0.3.2/MYCODE/app/register.php");
